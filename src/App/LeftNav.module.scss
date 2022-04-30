@@ -1,0 +1,88 @@
+.leftNav {
+    width: 225px;
+}
+// ----------------------------------------------------------------------------------------------------
+.topNavContainer {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+// ----------------------------------------------------------------------------------------------------
+.userCardContainer {
+    display: flex;
+    width: 100%;
+    padding: 10px 0px;
+    justify-content: center;
+}
+
+.userPhoto {
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.userDetails {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.userName {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.userEmail {
+    font-size: 13px;
+}
+// -----------------------------------------------------------------------------------------------------
+.searchArea {
+    width: 100%;
+    padding: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// ------------------------------------------------------------------------------------------------------
+.navItemContainer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    :hover {
+        background: #373c46;
+    }
+}
+.navItem {
+    width: 90%;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    // border-left: 3px solid dodgerblue;
+}
+.navItemIcon {
+    // background: rgb(255, 113, 30);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navItemTitle {
+    // background: rgb(30, 255, 79);
+    width: 80%;
+    padding-left: 5px;
+    font-size: 13px;
+}
+// -------------------------------------------------------------------------------------------------------
+.pageArea {
+    height: 100%;
+    // padding: 20px 0;
+}
